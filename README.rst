@@ -14,3 +14,5 @@ Working With Tokens
 OpenZeppelin
 ============
 - https://docs.openzeppelin.com/contracts/4.x/erc20
+- brownie run scripts/deploy_token.py ;
+

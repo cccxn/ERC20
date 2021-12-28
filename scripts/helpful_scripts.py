@@ -4,7 +4,7 @@ from solcx import compile_standard, install_solc
 install_solc(version='0.8.0', show_progress=True)
 
 PROJECT_PATH = Path(".").resolve().parent
-
+PROJECT_ERC20 = Path(PROJECT_PATH, 'ERC20')
 
 LOCAL_BLOCKCHAIN_ENVIRONMENT = [
     'development',
