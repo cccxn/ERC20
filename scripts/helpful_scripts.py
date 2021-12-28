@@ -1,4 +1,10 @@
 from brownie import accounts, network, config
+from pathlib import Path
+from solcx import compile_standard, install_solc
+install_solc(version='0.8.0', show_progress=True)
+
+PROJECT_PATH = Path(".").resolve().parent
+
 
 LOCAL_BLOCKCHAIN_ENVIRONMENT = [
     'development',
